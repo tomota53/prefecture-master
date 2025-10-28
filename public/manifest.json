@@ -1,0 +1,16 @@
+{
+  "name": "都道府県マスター",
+  "short_name": "都道府県マスター",
+  "description": "中学受験生向け都道府県学習アプリ",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#10b981",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
