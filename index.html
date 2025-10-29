@@ -7,10 +7,32 @@
 
     <meta name="google-adsense-account" content="ca-pub-5391342035855675">
     
-    <!-- タイトルと説明を変更 -->
-    <title>都道府県マスター | 中学受験生向け都道府県学習アプリ 無料
-    </title>
-    <meta name="description" content="中学受験生向け都道府県学習アプリ。47都道府県を楽しく学べます。" />
+    <!-- 基本メタタグ -->
+    <title>都道府県マスター | 中学受験生向け都道府県学習アプリ 無料</title>
+    <meta name="description" content="中学受験に特化した47都道府県学習アプリ。クイズ、暗記カード、用語集で効率的に学習。県庁所在地、特産物、地形を楽しく覚えられる無料ツール。スマホ・PC対応。" />
+    <meta name="keywords" content="都道府県,中学受験,地理,学習アプリ,クイズ,暗記,県庁所在地,特産物,地形,無料,小学生" />
+    <meta name="author" content="都道府県マスター" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="Japanese" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://prefecture-master.vercel.app/" />
+    <meta property="og:title" content="都道府県マスター | 中学受験生向け都道府県学習アプリ" />
+    <meta property="og:description" content="中学受験に特化した47都道府県学習アプリ。クイズと暗記カードで楽しく学習できる無料ツール。" />
+    <meta property="og:image" content="https://prefecture-master.vercel.app/og-image.jpg" />
+    <meta property="og:site_name" content="都道府県マスター" />
+    <meta property="og:locale" content="ja_JP" />
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://prefecture-master.vercel.app/" />
+    <meta name="twitter:title" content="都道府県マスター | 中学受験生向け都道府県学習アプリ" />
+    <meta name="twitter:description" content="中学受験に特化した47都道府県学習アプリ。クイズと暗記カードで楽しく学習できる無料ツール。" />
+    <meta name="twitter:image" content="https://prefecture-master.vercel.app/og-image.jpg" />
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://prefecture-master.vercel.app/" />
     
     <!-- PWA設定 -->
     <meta name="theme-color" content="#10b981" />
@@ -18,10 +40,33 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="default" />
     <meta name="apple-mobile-web-app-title" content="都道府県マスター" />
+    
+    <!-- 構造化データ (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "都道府県マスター",
+      "applicationCategory": "EducationalApplication",
+      "operatingSystem": "Web Browser",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "JPY"
+      },
+      "description": "中学受験に特化した47都道府県学習アプリ。クイズ、暗記カード、用語集で効率的に学習できます。",
+      "url": "https://prefecture-master.vercel.app/",
+      "author": {
+        "@type": "Organization",
+        "name": "都道府県マスター"
+      },
+      "educationalLevel": "小学生",
+      "inLanguage": "ja"
+    }
+    </script>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
-

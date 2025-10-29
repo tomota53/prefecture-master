@@ -1,0 +1,13 @@
+# robots.txt for 都道府県マスター
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://prefecture-master.vercel.app/sitemap.xml
+
+# クロール頻度の推奨
+Crawl-delay: 1
+
+# 特定のパスを除外（必要に応じて）
+# Disallow: /admin/
+# Disallow: /api/
