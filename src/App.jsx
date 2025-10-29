@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Star, Users } from 'lucide-react';
 import Header from './components/Header';
+import Footer from './components/Footer';
 import LearnMode from './components/LearnMode';
 import QuizMode from './components/QuizMode';
 import ListView from './components/ListView';
@@ -111,6 +112,9 @@ function App() {
           <MaterialsPage />
         )}
       </main>
+
+      {/* フッター */}
+      <Footer />
     </div>
   );
 }
