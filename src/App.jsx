@@ -7,6 +7,7 @@ import ListView from './components/ListView';
 import DailyPM from './components/DailyPrefecture';
 import GlossaryView from './components/GlossaryView';
 import QuizHistoryView from './components/QuizHistoryView';
+import MaterialsPage from './components/MaterialsPage';
 import geographyTerms from './data/geography-terms.json';
 import prefecturesData from './data/prefectures.json';
 import allPrefecturesData from './data/allprefectures.json';
@@ -104,6 +105,10 @@ function App() {
 
         {currentMode === 'history' && (
           <QuizHistoryView />
+        )}
+
+        {currentMode === 'materials' && (
+          <MaterialsPage />
         )}
       </main>
     </div>
