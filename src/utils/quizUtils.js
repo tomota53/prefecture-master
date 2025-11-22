@@ -44,8 +44,7 @@ export const generateNameQuiz = (prefecturesData, count = 10) => {
       question: `「${specialty}」が特産物なのはどこでしょう？`,
       options,
       correctAnswer: pref.name,
-      primeMinister: pref,
-      hint: `${pref.region}地方`
+      primeMinister: pref
     };
   });
 };
@@ -97,8 +96,7 @@ export const generateOrderQuiz = (primeMinistersData, count = 5) => {
       type: 'order',
       question: '次の都道府県を人口の多い順に並べてください',
       primeMinistersList: shuffledOptions,
-      correctOrder: correctOrder.map(pm => pm.id),
-      hint: '人口をヒントにしてください'
+      correctOrder: correctOrder.map(pm => pm.id)
     });
   }
   

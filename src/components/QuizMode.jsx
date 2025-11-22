@@ -339,11 +339,6 @@ const QuizMode = ({ prefecturesData }) => {
             <h3 className="text-xl font-bold text-gray-900 mb-2">
               {currentQuestion.question}
             </h3>
-            {currentQuestion.hint && (
-              <p className="text-sm text-gray-600">
-                💡 ヒント: {currentQuestion.hint}
-              </p>
-            )}
           </div>
 
           {/* 選択肢 */}
